@@ -173,7 +173,6 @@ namespace ScrapMsiaData
                     page.Org = content.SelectSingleNode(".//div[@class='col-sm-12 mampu-dt-org']//div//a[@href]").InnerText;
 
                     // Get organization url.
-                    //page.UrlOrg = pagePrefix + content.SelectSingleNode(".//li[@class='dataset-item']//div[@class='col-sm-12 mampu-dt-org']//div//a[@href]").GetAttributeValue("href", String.Empty)
                     page.UrlOrg = pagePrefix + content.SelectSingleNode(".//div[@class='col-sm-12 mampu-dt-org']//div//a[@href]").GetAttributeValue("href", String.Empty);
 
                     // Get description.
