@@ -177,7 +177,6 @@ namespace ScrapMsiaData
                     page.UrlOrg = pagePrefix + content.SelectSingleNode(".//div[@class='col-sm-12 mampu-dt-org']//div//a[@href]").GetAttributeValue("href", String.Empty);
 
                     // Get description.
-                    //page.Desc = content.SelectSingleNode(".//li[@class='dataset-item']//div[@class='dataset-content content-result']//div[@style='margin-top:5%;']").InnerText;
                     page.Desc = content.SelectSingleNode(".//div[@class='dataset-content content-result']//div[@style='margin-top:5%;']").InnerText;
 
                     // Get list of resources.
