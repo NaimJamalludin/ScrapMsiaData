@@ -165,11 +165,9 @@ namespace ScrapMsiaData
                     page.UrlTitle = pagePrefix + url;
 
                     // Get date created.
-                    //page.DateCreated = content.SelectSingleNode(".//li[@class='dataset-item']//div[@class='col-sm-12 mampu-dt-org']//div//span").InnerText;
                     page.DateCreated = content.SelectSingleNode(".//div[@class='col-sm-12 mampu-dt-org']//div//span").InnerText;
 
                     // Get organization.
-                    //page.Org = content.SelectSingleNode(".//li[@class='dataset-item']//div[@class='col-sm-12 mampu-dt-org']//div//a[@href]").InnerText;
                     page.Org = content.SelectSingleNode(".//div[@class='col-sm-12 mampu-dt-org']//div//a[@href]").InnerText;
 
                     // Get organization url.
