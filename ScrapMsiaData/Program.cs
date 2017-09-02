@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace ScrapMsiaData
 {
@@ -32,6 +33,9 @@ namespace ScrapMsiaData
 
             // Get page information.
             List<List<Page>> pageInfo = await GetPageInfoAsync(totalPage);
+
+            //// Construct the xml structure
+            //string xmlStructure = Construct(pageInfo);
 
         }
 
@@ -147,7 +151,6 @@ namespace ScrapMsiaData
 
                 // Loop through contents.
                 foreach (HtmlNode content in listContent)
-                //for(int i = 0; i < listContent.Count; i++) 
                 {
                     Page page = new Page();
                     string url = String.Empty;               
@@ -211,6 +214,33 @@ namespace ScrapMsiaData
                 return null;
             }
         }
+
+        //static string Construct(List<List<Page>> pageInfo)
+        //{
+        //    try
+        //    {
+        //        string info = String.Empty;
+
+        //        foreach(List<Page> pages in pageInfo)
+        //        {
+        //            foreach (Page page in pages)
+        //            {
+        //                page.
+
+        //            }
+
+        //        }
+
+        //        return info;
+
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine("Construct: " + ex.Message.ToString());
+        //        return String.Empty;
+        //    }
+
+        //}
 
 
 

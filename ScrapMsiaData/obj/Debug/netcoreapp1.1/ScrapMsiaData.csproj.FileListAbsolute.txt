@@ -7,3 +7,13 @@ C:\Projects\CSharpApps\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\Scrap
 C:\Projects\CSharpApps\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\ScrapMsiaData.AssemblyInfo.cs
 C:\Projects\CSharpApps\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\ScrapMsiaData.dll
 C:\Projects\CSharpApps\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\ScrapMsiaData.pdb
+D:\Personals\ScrapMsiaData\ScrapMsiaData\bin\Debug\netcoreapp1.1\ScrapMsiaData.deps.json
+D:\Personals\ScrapMsiaData\ScrapMsiaData\bin\Debug\netcoreapp1.1\ScrapMsiaData.runtimeconfig.json
+D:\Personals\ScrapMsiaData\ScrapMsiaData\bin\Debug\netcoreapp1.1\ScrapMsiaData.runtimeconfig.dev.json
+D:\Personals\ScrapMsiaData\ScrapMsiaData\bin\Debug\netcoreapp1.1\ScrapMsiaData.dll
+D:\Personals\ScrapMsiaData\ScrapMsiaData\bin\Debug\netcoreapp1.1\ScrapMsiaData.pdb
+D:\Personals\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\ScrapMsiaData.csprojResolveAssemblyReference.cache
+D:\Personals\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\ScrapMsiaData.csproj.CoreCompileInputs.cache
+D:\Personals\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\ScrapMsiaData.AssemblyInfo.cs
+D:\Personals\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\ScrapMsiaData.dll
+D:\Personals\ScrapMsiaData\ScrapMsiaData\obj\Debug\netcoreapp1.1\ScrapMsiaData.pdb
