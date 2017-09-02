@@ -1,6 +1,6 @@
 # Scrap Malaysia Data
 
-This project is intended to scrap iist of data from [Malaysia's Open Data](http://www.data.gov.my/data/en_US/dataset) into a markdown table for easy-viewing.
+This project is intended to scrap list of data from [Malaysia's Open Data](http://www.data.gov.my/data/en_US/dataset) into a markdown table for easy-viewing.
 
 However, I have not yet completed the project due to time constraints. 
 
